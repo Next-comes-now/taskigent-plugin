@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "taskigent": {
+      "type": "http",
+      "url": "https://taskigent.com/mcp"
+    }
+  }
+}

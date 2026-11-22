@@ -1,0 +1,21 @@
+{
+  "name": "taskigent",
+  "version": "1.0.0",
+  "description": "Connect your Taskigent weekly diary to Claude. Plan your week, check in on today, capture tasks, and let Claude do the tasks you hand off on a schedule you choose.",
+  "author": {
+    "name": "nextcomesnow",
+    "url": "https://taskigent.com"
+  },
+  "homepage": "https://taskigent.com",
+  "repository": "https://github.com/Next-comes-now/taskigent-plugin",
+  "keywords": [
+    "tasks",
+    "to-do",
+    "weekly planning",
+    "productivity",
+    "delegation",
+    "scheduled tasks"
+  ],
+  "privacyPolicyUrl": "https://taskigent.com/privacy",
+  "icon": ".claude-plugin/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "taskigent",
+  "owner": { "name": "nextcomesnow", "url": "https://taskigent.com" },
+  "metadata": { "description": "The Taskigent plugin for Claude." },
+  "plugins": [
+    {
+      "name": "taskigent",
+      "source": "./",
+      "description": "Connect your Taskigent weekly diary to Claude. Plan your week, capture tasks, and let Claude do the tasks you hand off on a schedule you choose."
+    }
+  ]
+}
