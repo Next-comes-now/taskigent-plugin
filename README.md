@@ -7,6 +7,7 @@ This plugin connects your diary to Claude:
 - **Plan my week:** plan the week, check in on today, capture tasks, set where you're working, make things repeat, tick off tasks and habits, and add to your notepad, all by asking Claude.
 - **Do my AI tasks:** Claude picks up the tasks you've handed to AI in Taskigent, does them, and reports back on each task. If it needs you, it asks.
 - **Set up my AI tasks routine:** Claude asks when you want it to run (any time of day) and sets up the scheduled routine for you.
+- **Link this folder:** in Claude Code, open a project's folder and say *"link this folder to my Taskigent project RevnIQ"*. Then "Do now with AI" opens Claude desktop right there, and AI runs know where to work.
 
 You need a Taskigent account and a paid Claude plan (Pro or above).
 
