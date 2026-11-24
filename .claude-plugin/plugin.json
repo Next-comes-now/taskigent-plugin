@@ -1,6 +1,6 @@
 {
   "name": "taskigent",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Connect your Taskigent weekly diary to Claude. Plan your week, check in on today, capture tasks, and let Claude do the tasks you hand off on a schedule you choose.",
   "author": {
     "name": "nextcomesnow",
