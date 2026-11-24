@@ -27,8 +27,8 @@ claude plugin install taskigent@taskigent
 
 The first time Claude uses Taskigent, you'll be asked to sign in to Taskigent and choose what Claude may see:
 
-- **Full diary:** for planning and chatting about your week.
-- **Tasks you hand off only:** Claude sees only the tasks you've handed to AI.
+- **Full diary + handed-off tasks:** for planning and chatting about your week. Claude can also work on the tasks you hand off.
+- **Handed-off tasks only:** Claude sees only the tasks you've handed to AI, and nothing else.
 
 Then say *"Set up my AI tasks routine"*.
 

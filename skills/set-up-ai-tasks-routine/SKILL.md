@@ -11,7 +11,7 @@ The routine is a scheduled task. At the times the person chooses, it picks up th
 
 Call `list_handed_off`.
 - If it works, the connection is ready. Mention how many tasks are waiting, if any.
-- If the Taskigent actions aren't available, the person needs to connect first. In Claude's connector settings they add Taskigent (`https://taskigent.com/mcp`), sign in, and choose **Full diary**. Then come back to this step.
+- If the Taskigent actions aren't available, the person needs to connect first. In Claude's connector settings they add Taskigent (`https://taskigent.com/mcp`), sign in, and choose **Full diary + handed-off tasks** (or **Handed-off tasks only** if they want the routine to see nothing else). Then come back to this step.
 
 ## 2. Ask when it should run
 
