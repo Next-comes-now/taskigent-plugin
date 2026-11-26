@@ -19,5 +19,5 @@ Taskigent can open Claude desktop straight into a project's folder ("Do now with
 
 - One folder per project. Linking again replaces the old one.
 - Only link when the person asks. Don't link folders on your own initiative during other work.
-- The person can see and change the folder in Taskigent: click the project's colour dot in the backlog.
+- The person can see and change the folder in Taskigent: click the project's colour dot in Tasks.
 - Claude desktop always asks the person to confirm a folder from a link before opening it.
