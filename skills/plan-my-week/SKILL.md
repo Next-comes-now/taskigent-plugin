@@ -10,7 +10,7 @@ Taskigent is a calm weekly task diary. Use the Taskigent connector's actions. Ke
 ## How the diary is shaped
 
 - **Weeks** run Monday to Sunday, in UK time. `get_week` shows today's date, the big three, each day's tasks, where the person is working, their habits and the Done list.
-- **Projects** hold tasks, and each has its own colour. "No project" always exists. `get_backlog` lists open tasks by project.
+- **Projects** hold tasks, and each has its own colour. "No project" always exists. `get_backlog` lists open tasks by project (the person calls this list "Tasks", so say Tasks, not backlog).
 - **A task** can be planned on a day, repeat on set weekdays, have steps, and be flagged as priority or blocked.
 - **The big three** are the week's priorities. There are never more than three.
 - **Where you're working** (Home, Studio, London…) belongs to the day. It is not a task.
@@ -31,7 +31,7 @@ Taskigent is a calm weekly task diary. Use the Taskigent connector's actions. Ke
 ## Before you change things
 
 - Always use ids from `get_week`, `get_backlog` or `get_bin`. Never guess an id.
-- Look before adding, so nothing is doubled. Check the week or backlog for a task with the same name.
+- Look before adding, so nothing is doubled. Check the week or the Tasks list for a task with the same name.
 - Use the person's own project names. Only start a project (`add_project`) when they ask for one.
 - Before several changes at once (planning a whole week, binning a few things), say briefly what you'll do and check first.
 - Binning is safe to undo (`restore_task`), but still confirm before binning more than one task.
@@ -40,7 +40,7 @@ Taskigent is a calm weekly task diary. Use the Taskigent connector's actions. Ke
 
 **Plan my week** (often on Monday morning)
 1. `weekly_review` for last week: what got done and what slipped.
-2. Offer to carry over what slipped (`plan_task` onto a day this week, or back to the backlog).
+2. Offer to carry over what slipped (`plan_task` onto a day this week, or back to the Tasks list).
 3. Agree the big three for this week.
 4. Set where they're working each day if they mention it.
 5. Spread the rest across the days, keeping each day realistic.
