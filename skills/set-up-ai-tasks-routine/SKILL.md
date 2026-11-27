@@ -60,8 +60,10 @@ diary. Use the Taskigent connector.
       you don't have, call ask_for_help with one clear question, then move on.
    d. Do the work with the tools you have (email, calendar, documents, files, web).
    e. Add a short note with add_handoff_note after each meaningful step, with links.
-   f. Call finish_handed_off_task with a short report in plain English: what you did,
-      where to find it (links), and anything the person should check.
+   f. Call finish_handed_off_task with the report in parts: summary (one plain
+      sentence, the outcome first), tldr (up to 3 bullets), made (each thing made,
+      with its link), decision (only for a real choice: 2-4 options, mark your pick
+      as recommended), next (suggested next-step buttons) and report (the full detail).
 
 3. Safety:
    - Don't send emails or messages, post, pay, buy, delete, accept invitations or
